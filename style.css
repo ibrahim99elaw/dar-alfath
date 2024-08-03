@@ -1,0 +1,378 @@
+
+@media(max-width:999px){
+/* fonts  */
+@font-face {
+    font-family:"formalhead" ;
+    src: url("/fonts/Tajawal-Bold.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+        header{
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background-color: white;
+        }
+        header img{
+            width: 50px;
+        }
+        header nav{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            margin-right: 8px;
+        }
+        header nav ul{
+            display: flex;
+            text-align: center;
+            /* flex-wrap: wrap; */
+        }
+        header nav ul li{
+            padding: 2px;
+        }
+        header nav ul li a{
+    background: var(--secondary);
+            color: white;
+            padding: 5px ;
+            font-size: 10px;
+            width: 20%;
+            font-weight: bold;
+            border-radius: 3px;
+        }
+h1,h2,h3,h4{
+    color: #ddd;
+    font-weight: normal;
+}
+
+p,a,li{
+    color: #9893d8;
+}
+
+/* reset  */
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "formalhead";
+}
+ul{
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+}
+
+/* best style  */
+body{
+    background: var(--secondary);
+    font-size: 16px;
+}
+
+
+/* mobile style */
+
+
+/* home style  */
+
+.content{
+    text-align: center;
+}
+
+
+/* Title  */
+
+.content .title h2, .content .title a h3{
+    background-color: #eee;
+    color: rgb(15, 171, 171);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.content .title {
+    text-align: center;
+    will-change: 80%;
+}
+
+.content .title a h3{
+    font-size: 15px;
+    width: 80%;
+    margin: 10px 10%;
+}
+
+/* Ayaat */
+
+.content .first .disc .ayaat {
+    color: #4206e9c7;
+    background-color: #eee;
+    border-radius: 10px;
+    border: rgb(81, 80, 80) dotted;
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+    
+}
+
+/* image home */
+
+.first img {
+    width: 150px;
+}
+.first .imghome {
+    background-color: #fcfcfc;
+    text-align: center;
+}
+
+/* teacher style  */
+
+.cards{
+    width: 80%;
+}
+
+.cards .project-card{
+    text-align: center;
+    width: 100%;
+    margin: 10%;
+    border:groove  ;
+    border-radius: 15px ;
+}
+
+
+
+.cards .project-card .project-img img{
+    text-align: center;
+    width : 80%;
+    padding: 10px 10px 0;
+    margin: 0 10% 5% ;
+}
+
+.cards .project-card .project-info{
+    text-align: center;
+    width:90%;
+    border:rgb(5, 92, 92) ridge;
+    background-color: #eee;
+    border-radius: 15px;
+    margin: 0 5% 10px;
+    padding-bottom: 5px;
+    font-size: small;
+}
+
+
+/* Top style */
+
+/* title  */
+.title_card .container .main-heading{
+    text-align: center;
+}
+.title_card .container .main-heading .title-tetcher {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 5%;
+    padding: 5px;
+    border:#0c0569 dotted ;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(238, 166, 22, 0.355);
+}
+.main-heading h2 {
+    color: white;
+}
+.main-heading h2 span a{
+    color: red;
+}
+
+
+/* cards  */
+.cards-top{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cards-top .project-card{
+    text-align: center;
+    width: 45%;
+    margin: 5px 5px;
+    border:groove  ;
+    border-radius: 15px ;
+}
+
+
+.cards-top .project-card .project-img {
+    min-height: 250px;
+}
+.cards-top .project-card .project-img img{
+    text-align: center;
+    width : 90%;
+    padding: 10px 10px 0;
+    min-height: 250px;
+}
+
+.cards-top .project-card .project-info{
+    text-align: center;
+    width:90%;
+    border:rgb(5, 92, 92) ridge;
+    background-color: #eee;
+    border-radius: 15px;
+    margin: 0 5% 10px;
+    padding-bottom: 5px;
+    font-size: small;
+}
+.cards .project-card .project-info .category{
+    font-size: 20px;
+    color: rgb(0, 0, 161);
+        font-weight: bold;
+}
+.cards-top .project-card .project-info .category{
+       font-size: 15px;
+    color: rgb(0, 0, 161);
+        font-weight: bold;}
+.cards-top .project-card .project-info p{
+          color: red;
+
+}
+.cards .project-card .project-info p{
+    color: red;
+}
+/* Archiv */
+.gallery {
+       text-align: center;
+}
+.photo-gallary{
+    text-align: center;
+   
+}
+.photo-gallary .img{
+    text-align: center;
+    width: 80%;
+    margin: 7%;
+    border: #0c0569 ridge;
+    padding: 2px;
+}
+.gallery .top-content{
+    display: flex;
+    text-align: center;
+     position: sticky;
+    top: 100px;
+    z-index: 999;
+    background-color: #eee;
+}
+    .gallery .top-content h3{
+        display: none;
+    }
+    .gallery .top-content label{
+        display: inline-block;
+        width: 20%;
+        font-size: 15px;
+        background-color:rgb(145, 126, 17);
+        color: white;
+        padding: 0 10px;
+        border-radius: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+
+        #check1:checked ~ .gallery .photo-gallary .pic{
+            opacity: 1;
+            transform: scale(1);
+            position: relative;
+            transition: 0.0s;
+        }
+
+    
+
+        /* family=صور الكتاب */
+        #check2:checked ~ .gallery .photo-gallary .family{
+            transform: scale(1);
+            opacity: 1;
+            position: relative;
+                        transition: 0.3;
+        }
+        #check2:checked ~ .gallery .photo-gallary .child,
+        #check2:checked ~ .gallery .photo-gallary .place
+        {
+            opacity: 0;
+            transform: scale(0);
+            position: absolute;
+            transition: 0.3;
+        }
+
+        /* child=صور الحفلات */
+        #check3:checked ~ .gallery .photo-gallary .child {
+            transform: scale(1);
+            opacity: 1;
+            position: relative;
+                        transition: 0.3;
+        }
+        #check3:checked ~ .gallery .photo-gallary .family,
+        #check3:checked ~ .gallery .photo-gallary .place
+        {
+            opacity: 0;
+            transform: scale(0);
+            position: absolute;
+            transition: 0.3;
+        }
+
+        /* place=صور الحضانه */
+        #check4:checked ~ .gallery .photo-gallary .place {
+            transform: scale(1);
+            opacity: 1;
+            position: relative;
+            transition: 0.3;
+        }
+        #check4:checked ~ .gallery .photo-gallary .family,
+        #check4:checked ~ .gallery .photo-gallary .child
+        {
+            opacity: 0;
+            transform: scale(0);
+            position: absolute;
+                        transition: 0.3;
+
+        }
+
+/* contact style  */
+
+/* title */
+.title-contact{
+    display: block;
+    width: 100% ;
+    text-align: center;
+    border-bottom: #0c0569 ridge;
+}
+
+/* contact  */
+.contacts  {
+    text-align: center;
+    width: 70%;
+    margin: 5% 15%;
+}
+.contacts img{
+    width: 50px;
+}
+.maplocation{
+    width: 100px;
+}
+/* footer */
+.footer{
+    height: 20px;
+    padding: 10px;
+    font-size: x-small;
+    background-color: #eee;
+}
+.footer a{
+    height: 100%;
+}
+}
+/* variables */
+:root{
+    --primary:red;
+    --secondary: rgb(158, 119, 19, 0.8);
+    --third: green;
+}
+
